@@ -1,0 +1,21 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homem-Aranha Jogo</title>
+</head>
+<body>
+
+<h1>Homem-Aranha Jogo</h1>
+
+<p>Descubra informações sobre jogos do Homem-Aranha, plataformas e diferentes aventuras do herói.</p>
+
+<h2>Jogos do Homem-Aranha</h2>
+
+<p>Confira os principais jogos e encontre opções para diferentes consoles e dispositivos.</p>
+
+</body>
+</html>
+```
