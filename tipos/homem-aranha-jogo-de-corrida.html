@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="topo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra os melhores jogos de corrida do Homem-Aranha. Conheça games velozes, desafios de velocidade e muita ação com o herói aracnídeo.">
+    <title>Homem Aranha Jogo de Corrida: Conheça os Games Com o Herói</title>
+    <style>
+        :root {
+            --bg-principal: #f0fdf4;
+            --branco: #ffffff;
+            --verde-principal: #16a34a;
+            --verde-escuro: #15803d;
+            --verde-claro: #dcfce7;
+            --borda-verde: #bbf7d0;
+            --cinza-claro: #f3f4f6;
+            --texto: #263238;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-principal);
+            color: var(--texto);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--branco);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            padding: 30px 20px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: var(--verde-escuro);
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--verde-escuro);
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--borda-verde);
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: var(--texto);
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        .descricao {
+            font-size: 1.05rem;
+            color: #374151;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        .imagem-container {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .imagem-container img {
+            width: 100%;
+            max-width: 260px;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid var(--borda-verde);
+        }
+
+        .legenda {
+            font-size: 0.85rem;
+            color: #6b7280;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .indice-card {
+            background-color: var(--verde-claro);
+            border: 1px solid var(--borda-verde);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .indice-card h2 {
+            margin-top: 0;
+            font-size: 1.2rem;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .indice-card ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .indice-card li {
+            margin-bottom: 8px;
+        }
+
+        .indice-card a {
+            color: var(--verde-escuro);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .indice-card a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: var(--verde-principal);
+            color: var(--branco);
+            font-weight: bold;
+            padding: 14px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-bottom: 15px;
+            transition: background-color 0.2s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .btn:hover {
+            background-color: var(--verde-escuro);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            border: 1px solid var(--borda-verde);
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--verde-claro);
+            color: var(--verde-escuro);
+        }
+
+        ul.conteudo-lista {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        ul.conteudo-lista li {
+            margin-bottom: 8px;
+        }
+
+        .voltar-inicio {
+            text-align: center;
+            margin: 30px 0 20px 0;
+        }
+
+        .voltar-inicio a {
+            color: var(--verde-principal);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .voltar-inicio a:hover {
+            text-decoration: underline;
+        }
+
+        .btn-flutuante {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--verde-principal);
+            color: var(--branco);
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.2rem;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+            transition: background-color 0.2s;
+        }
+
+        .btn-flutuante:hover {
+            background-color: var(--verde-escuro);
+        }
+
+        footer {
+            background-color: var(--cinza-claro);
+            padding: 25px 20px;
+            margin-top: 40px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #4b5563;
+        }
+
+        footer .site-nome {
+            font-weight: bold;
+            color: var(--verde-escuro);
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        footer .footer-links {
+            margin: 12px 0;
+        }
+
+        footer .footer-links a {
+            color: var(--verde-escuro);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                padding: 40px;
+            }
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- 1. TÍTULO PRINCIPAL — H1 -->
+        <h1>Homem Aranha Jogo de Corrida: Conheça os Games Com o Herói</h1>
+
+        <!-- 2. DESCRIÇÃO DO ARTIGO -->
+        <p class="descricao">Procurando um emocionante <strong>Homem Aranha jogo de corrida</strong>? Explore títulos focados em velocidade, desvio de obstáculos e perseguições eletrizantes pelas ruas de Nova York.</p>
+
+        <!-- 4. IMAGEM PEQUENA -->
+        <div class="imagem-container">
+            <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&auto=format&fit=crop&q=80" alt="Homem Aranha Jogo de Corrida e Ação" loading="lazy">
+            <!-- 5. LEGENDA DA IMAGEM -->
+            <div class="legenda">Jogos de corrida e velocidade do Homem-Aranha em destaque</div>
+        </div>
+
+        <!-- 6. ÍNDICE -->
+        <div class="indice-card" id="indice">
+            <h2>Índice do artigo</h2>
+            <ul>
+                <li><a href="#topico-1">1. A velocidade nos jogos de corrida do Homem-Aranha</a></li>
+                <li><a href="#topico-2">2. Principais mecânicas e estilo runner</a></li>
+                <li><a href="#topico-3">3. Dados e informações importantes</a></li>
+                <li><a href="#topico-4">4. Perguntas frequentes</a></li>
+            </ul>
+        </div>
+
+        <!-- 7. BOTÃO PLAY STORE -->
+        <a href="https://play.google.com/store/search?q=spider+man+runner+games&c=apps" class="btn" target="_blank" rel="noopener noreferrer">VER JOGOS NA PLAY STORE</a>
+
+        <!-- 8. BOTÃO DE PRODUTOS -->
+        <a href="LINK_DO_PRODUTO" class="btn" target="_blank" rel="noopener noreferrer">VER PRODUTOS RECOMENDADOS</a>
+
+        <!-- 9. CONTEÚDO PRINCIPAL -->
+        <h2 id="topico-1">A velocidade nos jogos de corrida do Homem-Aranha</h2>
+        <p>Os fãs que buscam um eletrizante <strong>Homem Aranha jogo de corrida</strong> encontram excelentes opções no formato de corrida infinita (endless runner) e desafios cronometrados. Nesses títulos, a agilidade do herói aracnídeo é posta à prova enquanto ele desvia de obstáculos em alta velocidade.</p>
+        <p>Diferente de games focados exclusivamente em combate, os jogos de corrida exigem reflexos rápidos para saltar entre prédios, esquivar de armadilhas e coletar itens pelo caminho. A sensação de movimento contínuo garante muita adrenalina para quem joga pelo celular.</p>
+        <p>Essa dinâmica rápida atrai tanto jogadores casuais quanto entusiastas que desejam bater recordes de distância. <u>Treinar a coordenação motora</u> é fundamental para alcançar as maiores pontuações e desbloquear novos trajes.</p>
+
+        <h2 id="topico-2">Principais mecânicas e estilo runner</h2>
+        <p>Para se destacar no universo mobile, os jogos de corrida do Homem-Aranha contam com elementos clássicos de jogabilidade ágil:</p>
+        <ul class="conteudo-lista">
+            <li><strong>Desvios rápidos:</strong> Movimentos laterais instantâneos para escapar de barreiras urbanas.</li>
+            <li><strong>Balanço de teia dinâmico:</strong> Impulsões aéreas para vencer grandes vãos entre arranha-céus.</li>
+            <li><strong>Coleta de itens:</strong> Missões para resgatar personagens e obter recompensas especiais.</li>
+        </ul>
+        <p>Além disso, muitos títulos oferecem eventos diários e desafios cronometrados que mantêm a experiência sempre renovada para os competidores.</p>
+
+        <!-- 10. DADOS IMPORTANTES -->
+        <h2 id="topico-3">Dados importantes</h2>
+        <p>Veja abaixo um resumo comparativo sobre as características dos jogos de corrida e velocidade do Homem-Aranha:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Característica</th>
+                    <th>Detalhe Principal</th>
+                    <th>Impacto na Jogabilidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Estilo de Jogo</strong></td>
+                    <td>Corrida infinita e perseguições</td>
+                    <td>Altíssimo nível de dinamismo e foco</td>
+                </tr>
+                <tr>
+                    <td><strong>Controles</strong></td>
+                    <td>Gestos simples na tela (swipe)</td>
+                    <td>Fácil de aprender, difícil de dominar</td>
+                </tr>
+                <tr>
+                    <td><strong>Plataformas</strong></td>
+                    <td>Dispositivos móveis Android e iOS</td>
+                    <td>Acessível para partidas rápidas</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 11. FAQ -->
+        <h2 id="topico-4">Perguntas frequentes</h2>
+        
+        <h3>Qual é o melhor jogo de corrida do Homem-Aranha para celular?</h3>
+        <p>Existem diversos títulos no estilo runner disponíveis nas lojas de aplicativos oficiais, oferecendo mapas variados inspirados nos quadrinhos e filmes do herói.</p>
+
+        <h3>Os jogos de corrida do Homem-Aranha são gratuitos?</h3>
+        <p>Sim, a grande maioria dos jogos mobile baseados em corrida adota o modelo gratuito com opções de compras internas opcionais e anúncios.</p>
+
+        <h3>Posso jogar offline?</h3>
+        <p>Muitos títulos permitem partidas sem conexão com a internet após o download inicial, embora alguns recursos sociais exijam rede.</p>
+
+        <h3>Existem diferentes versões do Homem-Aranha nesses jogos?</h3>
+        <p>Sim! É comum encontrar múltiplos trajes e variantes do herói, como Miles Morales e o Homem-Aranha Superior, cada um com visuais únicos.</p>
+
+        <!-- 13. VOLTAR AO INÍCIO -->
+        <div class="voltar-inicio">
+            <a href="#topo">↑ Voltar ao início da página</a>
+        </div>
+
+    </div>
+
+    <!-- 14. BARRA/BOTÃO FLUTUANTE PARA VOLTAR AO TOPO -->
+    <a href="#topo" class="btn-flutuante" aria-label="Voltar ao topo">↑</a>
+
+    <!-- 15. RODAPÉ -->
+    <footer>
+        <div class="site-nome">Portal Jogos & Ação</div>
+        <p>Seu portal definitivo com dicas, novidades e informações sobre os melhores games do universo geek e mobile.</p>
+        <div class="footer-links">
+            <a href="../index.html">Página inicial</a> | 
+            <a href="#">Política de Privacidade</a> | 
+            <a href="#">Contato</a>
+        </div>
+        <p>&copy; 2026 Portal Jogos & Ação. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
