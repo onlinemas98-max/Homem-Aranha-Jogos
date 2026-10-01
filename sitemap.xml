@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Página Inicial -->
+    <url>
+        <loc>https://seu-site.com.br/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Plataformas -->
+    <url><loc>https://seu-site.com.br/plataformas/homem-aranha-jogo-celular.html</loc></url>
+    <url><loc>https://seu-site.com.br/plataformas/homem-aranha-jogo-pc.html</loc></url>
+    <url><loc>https://seu-site.com.br/plataformas/homem-aranha-jogo-ps4.html</loc></url>
+    <url><loc>https://seu-site.com.br/plataformas/homem-aranha-jogo-ps5.html</loc></url>
+
+    <!-- Jogos do Homem-Aranha -->
+    <url><loc>https://seu-site.com.br/jogos/homem-aranha-jogo-2018.html</loc></url>
+    <url><loc>https://seu-site.com.br/jogos/homem-aranha-jogo-miles-morales.html</loc></url>
+    <url><loc>https://seu-site.com.br/jogos/homem-aranha-jogo-3.html</loc></url>
+    <url><loc>https://seu-site.com.br/jogos/espetacular-homem-aranha-2-jogo.html</loc></url>
+    <url><loc>https://seu-site.com.br/jogos/homem-aranha-jogo-antigo.html</loc></url>
+
+    <!-- Por Console -->
+    <url><loc>https://seu-site.com.br/por-console/homem-aranha-3-jogo-ps2.html</loc></url>
+    <url><loc>https://seu-site.com.br/por-console/espetacular-homem-aranha-ps2.html</loc></url>
+    <url><loc>https://seu-site.com.br/por-console/homem-aranha-miles-morales-ps4.html</loc></url>
+
+    <!-- Miles Morales -->
+    <url><loc>https://seu-site.com.br/miles-morales/homem-aranha-jogo-miles-morales.html</loc></url>
+    <url><loc>https://seu-site.com.br/miles-morales/homem-aranha-miles-morales-ps5.html</loc></url>
+
+    <!-- Tipos de Jogos -->
+    <url><loc>https://seu-site.com.br/tipos/homem-aranha-jogo-de-luta.html</loc></url>
+    <url><loc>https://seu-site.com.br/tipos/homem-aranha-jogo-de-corrida.html</loc></url>
+    <url><loc>https://seu-site.com.br/tipos/homem-aranha-jogo-de-moto.html</loc></url>
+    <url><loc>https://seu-site.com.br/tipos/homem-aranha-jogo-de-carro.html</loc></url>
+    <url><loc>https://seu-site.com.br/tipos/homem-aranha-jogo-de-teia.html</loc></url>
+    <url><loc>https://seu-site.com.br/tipos/homem-aranha-mundo-aberto.html</loc></url>
+    <url><loc>https://seu-site.com.br/tipos/homem-aranha-jogo-online.html</loc></url>
+
+    <!-- Personagens -->
+    <url><loc>https://seu-site.com.br/personagens/homem-aranha-jogo-venom.html</loc></url>
+    <url><loc>https://seu-site.com.br/personagens/homem-aranha-lego-jogo.html</loc></url>
+    <url><loc>https://seu-site.com.br/personagens/homem-aranha-jogo-minecraft.html</loc></url>
+
+    <!-- Infantis -->
+    <url><loc>https://seu-site.com.br/infantis/homem-aranha-jogo-infantil.html</loc></url>
+    <url><loc>https://seu-site.com.br/infantis/homem-aranha-jogo-de-colorir.html</loc></url>
+    <url><loc>https://seu-site.com.br/infantis/homem-aranha-jogo-de-desenhar.html</loc></url>
+    <url><loc>https://seu-site.com.br/infantis/jogo-da-memoria-homem-aranha.html</loc></url>
+
+    <!-- Guia Geral -->
+    <url><loc>https://seu-site.com.br/homem-aranha-todos-os-jogos.html</loc></url>
+</urlset>
